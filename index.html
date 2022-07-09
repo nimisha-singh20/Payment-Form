@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment portal</title>
+</head>
+<body style="background-color:rgb(239, 237, 235)">
+    <form action="">
+        <h1>PAYMENT FORM</h1>
+        <h2>Contact information</h2>
+        <p>Name: <input type="text" name="name"> </p>
+        <fieldset>
+            <legend>Gender</legend>
+        <p>
+            Male <input type="radio" name="gender" id="male">
+            Female <input type="radio" name="gender" id="female">
+            
+        </p>
+    </fieldset>
+    <p>Address: <textarea name="address" id="address" cols="50" rows="10"></textarea></p>
+    <p>Email: <input type="email" name="email" id="email"></p>
+    <p>Pincode: <input type="number" name="pincode" id="pincode"></p>
+    <hr>
+    <h2>Payment Information </h2>
+    <P>Card type: 
+        <select name="card_type" id="card_type">
+            <option value="">--Select your Card type</option>
+            <option value="visa"></option>
+            <option value="mastercard"></option>
+            <option value="rupay"></option>
+        </select>
+    </P>
+    <p>CARD NUMBER *<input type="number" name="card_no" id="card_no" required</p>
+    <p>
+        EXPIRY DATE:* <input type="date" name="exp_date" id="exp_date" required> 
+    </p>
+    <p>
+        CVV <input type="password" name="cvv" id="cvv" required>
+    </p>
+    <input type="submit" value="Confirm">
+</form>
+</body>
+</html>
